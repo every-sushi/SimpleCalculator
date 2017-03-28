@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="rlaskfud0515.kr.hs.emirim.simplecalculator.MainActivity">
+    tools:context="rlaskfud0515.kr.hs.emirim.simplecalculator.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,23 +27,26 @@
         android:hint="정수로 입력"/>
 
     <Button
-        android:id= "@+id/but_plus"
-        android:layout_width="match_parent"
+        android:id="@+id/but_plus"
+        android:layout_width="174dp"
         android:layout_height="wrap_content"
-        android:text="+"/>
+        android:text="+" />
+
     <Button
         android:id="@+id/but_minus"
-        android:layout_width="match_parent"
+        android:layout_width="181dp"
         android:layout_height="wrap_content"
-        android:text="-"/>
+        android:text="-" />
+
     <Button
         android:id="@+id/but_multiply"
-        android:layout_width="match_parent"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:text="*"/>
+        android:text="*" />
+
     <Button
         android:id="@+id/but_devision"
-        android:layout_width="match_parent"
+        android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:text="/"/>
 
